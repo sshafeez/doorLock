@@ -112,14 +112,6 @@ def main(time,tagID):
     
     
     
-    
-    
-    
-    
-
-    
-    
-    
 
 def lambda_handler(event, context):
     time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
